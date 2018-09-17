@@ -1,3 +1,54 @@
+.wrapper {
+  max-width: 800px;
+  margin: auto;
+
+}
+
+.container {
+  display: flex;
+}
+
+.container-map-and-filters {
+
+}
+
+.container-map {
+
+}
+
+.container-filters {
+
+}
+
+.full-width {
+  width: 100%;
+}
+
+
+/**** MEDIA QUERIES ***/
+
+@media screen and (min-width: 750px) {
+  .container-map {
+    width: 70%;
+  }
+
+  .container-filters {
+    width: 30%;
+    /*justify-content: "space-around";*/
+    flex-direction: column;
+    align-content: flex-start;
+    padding: 50px 5px 0 5px;
+  }
+
+  .container {
+    /*justify-content: space-evenly;*/
+  }
+}
+
+
+
+
+
 body,td,th,p{
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 10pt;
@@ -29,15 +80,20 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0 0 20px;
 }
-article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+/*article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+*/
 #maincontent {
   background-color: #f3f3f3;
   min-height: 100%;
 }
 #footer {
-  background-color: #444;
+
+
+.container {
+  display: flex;
+  }  background-color: #444;
   color: #aaa;
   font-size: 8pt;
   letter-spacing: 1px;
@@ -61,6 +117,7 @@ nav h1 a {
   font-weight: 200;
   letter-spacing: 10px;
   text-transform: uppercase;
+
 }
 #breadcrumb {
     padding: 10px 40px 16px;
@@ -102,28 +159,28 @@ nav h1 a {
 }
 /* ====================== Restaurant Filtering ====================== */
 .filter-options {
-  width: 100%;
-  height: 50px;
+  /*width: 100%;*/
+  /*height: 50px;*/
   background-color: #3397DB;
-  align-items: center;
+  /*align-items: center;*/
 }
 .filter-options h2 {
   color: white;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: normal;
   line-height: 1;
-  margin: 0 20px;
+  margin: 0 0 20px 10px;
 }
 .filter-options select {
   background-color: white;
   border: 1px solid #fff;
   font-family: Arial,sans-serif;
-  font-size: 11pt;
-  height: 35px;
+  font-size: 1.1rem;
+  /*height: 35px;*/
   letter-spacing: 0;
-  margin: 10px;
-  padding: 0 10px;
-  width: 200px;
+  margin: 10px 10px 20px 10px;
+  padding: 10px 5px 10px 5px;
+  /*width: 200px;*/
 }
 
 /* ====================== Restaurant Listing ====================== */
