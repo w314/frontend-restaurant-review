@@ -6,6 +6,7 @@
 
 .container {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .container-map-and-filters {
@@ -59,6 +60,9 @@ header {
     width: 70%;
   }
 
+  .container-map-and-filters{
+    flex-wrap: nowrap;
+  }
   .container-filters {
     width: 30%;
     /*justify-content: "space-around";*/
@@ -67,9 +71,6 @@ header {
     padding: 50px 5px 0 5px;
   }
 
-  .container {
-    /*justify-content: space-evenly;*/
-  }
 }
 
 
@@ -225,7 +226,7 @@ nav h1 a {
   font-family: Arial,sans-serif;
   margin: 15px;
   min-height: 380px;
-  padding: 0 30px 25px;
+  padding: 25px 30px 25px 30px;
   text-align: left;
   width: 270px;
 }
