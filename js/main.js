@@ -161,7 +161,7 @@ createRestaurantHTML = (restaurant) => {
 
   const more = document.createElement('a');
   more.innerHTML = 'View Details';
-  more.className = 'restaurant-details-link'
+  more.className = 'restaurant-details-link uppercase'
   more.href = DBHelper.urlForRestaurant(restaurant);
   li.append(more)
 

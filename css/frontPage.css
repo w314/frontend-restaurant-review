@@ -4,14 +4,14 @@
 #map {
   height: 400px;
   width: 100%;
-  background-color: #ccc;
+  background-color: var(--gray);
 }
 
 
 /*** RESTAURANT FILTERS ***/
 
 .filter-options {
-  background-color: #3397DB;
+  background-color: var(--soft-blue);
 }
 
 .filter-options-title {
@@ -36,7 +36,7 @@
 /*** RESTAURANT LIST ***/
 
 #restaurants-list {
-  background-color: #f3f3f3;
+  background-color: var(--light-gray);
   list-style: outside none none;
   margin: 0;
   padding: 30px 15px 60px;
@@ -45,7 +45,7 @@
 
 .restaurant {
   background-color: #fff;
-  border: 2px solid #ccc;
+  border: 2px solid var(--gray);
   font-family: Arial,sans-serif;
   margin: 15px;
   min-height: 380px;
@@ -55,13 +55,13 @@
 }
 
 .restaurant-img {
-  background-color: #ccc;
+  background-color: var(--gray);
   margin: 0;
   min-height: 248px;
 }
 
 .restaurant-name {
-  color: #f18200;
+  color: var(--orange);
   font-family: Arial,sans-serif;
   font-size: 14pt;
   font-weight: 200;
@@ -77,8 +77,8 @@
 }
 
 .restaurant-details-link {
-  background-color: orange;
-  border-bottom: 3px solid #eee;
+  background-color: var(--orange);
+  border-bottom: 3px solid var(--light-gray);
   color: #fff;
   display: inline-block;
   font-size: 10pt;
@@ -86,7 +86,6 @@
   padding: 8px 30px 10px;
   text-align: center;
   text-decoration: none;
-  text-transform: uppercase;
 }
 
 
