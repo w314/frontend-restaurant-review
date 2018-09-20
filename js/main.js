@@ -146,7 +146,7 @@ createRestaurantHTML = (restaurant) => {
 
   const name = document.createElement('h1');
   name.innerHTML = restaurant.name;
-  name.className = 'restaurant-name';
+  name.className = 'restaurant-name uppercase';
   li.append(name);
 
   const neighborhood = document.createElement('p');

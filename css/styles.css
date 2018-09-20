@@ -48,6 +48,7 @@ div {
 .wrapper {
   max-width: 800px;
   margin: auto;
+  font: 400 1rem arial sans serif;
 
 }
 
@@ -56,25 +57,22 @@ div {
 .page-title {
   width: 100%;
   height: 80px;
-  background-color: var(--dark-gray);
-  text-align:center;
-  color: var(--orange);
-  font-size: 1.8rem;
-  font-weight: 600;
-  letter-spacing: 2px;
-  text-transform: uppercase;
   margin: 0;
   padding: 20px 0 0 0;
+  background-color: var(--dark-gray);
+  font: 600 1.8rem Arial sans-serif;
+  color: var(--orange);
+  text-align:center;
+  letter-spacing: 2px;
 }
 
 /*** FOOTER ***/
 
 #footer {
-  background-color: var(--dark-gray);
-  color: #aaa;
-  font-size: 8pt;
-  letter-spacing: 1px;
   padding: 25px;
+  background-color: var(--dark-gray);
+  font-size: 8pt;
+  color: #aaa;
   text-align: center;
-  text-transform: uppercase;
+  letter-spacing: 1px;
 }
