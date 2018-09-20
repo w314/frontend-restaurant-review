@@ -16,14 +16,14 @@
 .filter-options-title {
   margin: 0 0 20px 10px;
   font-size: 1.5rem;
-  color: white;
+  color: var(--white);
 }
 
 .filter-option {
   margin: 10px 10px 20px 10px;
   padding: 10px 5px 10px 5px;
-  background-color: white;
-  border: 1px solid #fff;
+  background-color: var(--white);
+  border: 1px solid var(--white);
   font-size: 1.1rem;
 }
 
@@ -42,7 +42,7 @@
   min-height: 380px;
   margin: 15px;
   padding: 25px 30px 25px 30px;
-  background-color: #fff;
+  background-color: var(--white);
   border: 2px solid var(--gray);
   text-align: left;
 }
@@ -69,7 +69,7 @@
   padding: 8px 30px 10px;
   background-color: var(--orange);
   border-bottom: 3px solid var(--light-gray);
-  color: #fff;
+  color: var(--white);
   text-align: center;
   text-decoration: none;
   display: inline-block;

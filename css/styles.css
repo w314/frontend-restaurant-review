@@ -1,21 +1,26 @@
 /*** COLORS ***/
 :root {
+  --white: #fff;
   /*not used yet*/
   --light-blue: #aadaff;
   /*for links*/
   --blue: #0275d8;
+  /* for nav link on hover */
+  --dark-blue: #01447e;
   /* for filter options background */
   --soft-blue: #3397db;
-  /*for header & footer background*/
-  --dark-gray: #252831;
-  /*for page title*/
-  /*--orange: #efa02c;*/
-  --orange: #f18200;
   /*for backgrounds in */
   /* restaurant-list */
   --light-gray: #f3f3f3;
   /* for map backgorund */
   --gray: #ccc;
+  /*for header & footer background*/
+  --dark-gray: #252831;
+  /* for restuarant hours */
+  --soft-gray: #666;
+  /*for page title*/
+  /*--orange: #efa02c;*/
+  --orange: #f18200;
 }
 
 
@@ -72,7 +77,7 @@ div {
   padding: 25px;
   background-color: var(--dark-gray);
   font-size: 8pt;
-  color: #aaa;
+  color: var(--gray);
   text-align: center;
   letter-spacing: 1px;
 }
