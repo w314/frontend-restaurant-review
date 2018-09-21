@@ -30,6 +30,7 @@ header,
 footer,
 section,
 article,
+/*select,*/
 div {
   box-sizing: border-box; 
 }
@@ -60,12 +61,10 @@ div {
 
 /*** HEADER ***/
 .page-title {
-  width: 100%;
-  height: 80px;
   margin: 0;
-  padding: 20px 0 0 0;
+  padding: 12px 0 12px 0;
   background-color: var(--dark-gray);
-  font: 600 1.8rem Arial sans-serif;
+  font: 400 1.5rem Arial sans-serif;
   color: var(--orange);
   text-align:center;
   letter-spacing: 2px;
@@ -80,4 +79,13 @@ div {
   color: var(--gray);
   text-align: center;
   letter-spacing: 1px;
+}
+
+
+/*** MEDIA QUERIES ***/
+
+@media screen and (min-width: 750px) {
+  .page-title {
+    font: 600 1.8rem Arial sans-serif;
+  }
 }

@@ -15,24 +15,24 @@
 <!--     <nav>
       <h1><a href="/">Restaurant Reviews</a></h1>
     </nav> -->
-    <h1 class="page-title uppercase">Restaurant Reviews</h1>
+    <h1 class="page-title uppercase full-width">Restaurant Reviews</h1>
   </header>
 
   <main>
     <div class="container container-map-and-filters full-width">
-      <section class="container-map"id="map-container">
+      <section class="container-map full-width"id="map-container">
         <div id="map"></div>
       </section>
-      <section class="container container-filters filter-options">
-        <!-- <div class="filter-options"> -->
-          <h2 class="filter-options-title">Filter Results</h2>
+      <section class="container container-filters full-width">
+        <h2 class="filter-options-title">Filter Results</h2>
+        <div class="container container-filter-options full-width">
           <select class="filter-option" id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
             <option value="all">All Neighborhoods</option>
           </select>
           <select class="filter-option" id="cuisines-select" name="cuisines" onchange="updateRestaurants()">
             <option value="all">All Cuisines</option>
           </select>
-        <!-- </div> -->
+        </div>
       </section>
     </div>
     <!-- <section class="container container-restaurants"> -->
