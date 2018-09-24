@@ -26,13 +26,15 @@
 
 /*** GENERAL ***/
 
-header,
-footer,
-section,
-article,
-/*select,*/
-div {
-  box-sizing: border-box; 
+img,
+embed,
+object,
+video {
+  max-width: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
 }
 
 .container {
@@ -62,7 +64,7 @@ div {
 /*** HEADER ***/
 .page-title {
   margin: 0;
-  padding: 12px 0 12px 0;
+  padding: 20px 0 20px 0;
   background-color: var(--dark-gray);
   font: 400 1.5rem Arial sans-serif;
   color: var(--orange);

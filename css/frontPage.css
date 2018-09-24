@@ -1,4 +1,4 @@
-/*** MAP AND FILTERS CONTAINER ***/
+** MAP AND FILTERS CONTAINER ***/
 
   .container-map-and-filters {
     flex-wrap: wrap;
@@ -53,8 +53,8 @@
 }
 
 .restaurant {
-  width: 270px;  
-  min-height: 380px;
+  width: 100%;  
+  /*min-height: 380px;*/
   margin: 15px;
   padding: 25px 30px 25px 30px;
   background-color: var(--white);
@@ -63,8 +63,10 @@
 }
 
 .restaurant-img {
-  min-height: 248px;
-  margin: 0;
+  /*max-height: 400px;*/
+  margin: 5px;
+
+  /*width: 90%;*/
   background-color: var(--gray);
 }
 
@@ -79,9 +81,11 @@
   font-size: 0.9rem;
 
 }
+
 .restaurant-details-link {
   margin: 15px 0 0 0;
   padding: 8px 30px 10px;
+  font: 200 1.4rem Arial sans-serif;
   background-color: var(--orange);
   border-bottom: 3px solid var(--light-gray);
   color: var(--white);
@@ -93,25 +97,33 @@
 
 /**** MEDIA QUERIES ***/
 
-@media screen and (min-width: 750px) {
- 
-  .filter-options-title {
-      font-size: 1.5rem;
+@media screen and (min-width: 420px) {
+
+  .restaurant {
+    width: calc(50% - 10px);
+    margin: 5px;
+    padding: 5px;
   }
 
+  .restaurant-img {
 
-  .filter-option {
-    margin: 10px 10px 20px 10px;
-    padding: 10px 5px 10px 5px;
-    font-size: 1.1rem;
+    max-width: 95%;
+  }
+
+  .restaurant-name {
+    font: 500 0.8rem Arial sans-serif;
+  }
+
+  .restaurant-details-link {
+    font: 0.8rem Arial sans-serif ;
   }
 
 }
 
-/*@media screen and (min-width: 1px) and (max-width: 400px) {*/
-/*@media screen and (min-width: 750px) {
 
-  .container-map-and-filters {
+@media screen and (min-width: 580px) {
+
+ .container-map-and-filters {
     flex-wrap: nowrap;
   }
 
@@ -125,5 +137,44 @@
     flex-direction: column;
     align-content: flex-start;
   }
-*/
+
+  .filter-options-title {
+    font-size: 1.4rem;
+  }
+
+
+  .container-filter-options {
+    justify-content: flex-start;
+  }
+  
+  .filter-option {
+    margin: 10px 5px 10px 5px;
+  }
+
+}
+
+
+@media screen and (min-width: 620px) {
+
+  .filter-option {
+    font-size: 1rem;
+  }
+
+  .restaurant {
+    width: calc(33.333% - 10px);
+  }
+
+}
+
+
+@media screen and (min-width: 700px) {
+ 
+  .filter-options-title {
+    font-size: 1.5rem;
+  }
+
+  .filter-option {
+    font-size: 1.1rem;
+  }
+
 }
