@@ -90,13 +90,14 @@ header {
 
 #restaurant-hours td {
   color: var(--soft-gray);
+  vertical-align: text-top;
 }
 
 
 /*** REVIEWS ***/
 
 #reviews-container {
-  padding: 20px 20px 0 20px;
+  padding: 10px 20px 0 20px;
 }
 
 #reviews-container h2 {
@@ -113,17 +114,30 @@ header {
 
 #reviews-list li {
   margin: 0;
-  padding: 20px;
+  padding: 0 5px 10px 5px;
   background-color: var(--white);
   border-bottom: 2px solid var(--light-gray);
   list-style-type: none;
   position: relative;
 }
 
+.review-detail {
+  margin: 0;
+  padding: 5px 0 5px 0; 
+}
+
 
 /*** MEDIA-QUERIES ***/
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 420px) {
+ 
+ .page-title {
+    font: 500 1.6rem Arial sans-serif;
+  }
   
+  .container-map-and-restaurant {
+    padding: 114.2px 0 0 0;
+  }
+
   .container-map {
     width: 50%;
   }
