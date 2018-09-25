@@ -50,6 +50,12 @@ video {
   text-transform: uppercase;
 }
 
+.hide {
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important;
+}
+
 
 /*** BODY ***/
 
@@ -82,12 +88,3 @@ video {
   text-align: center;
   letter-spacing: 1px;
 }
-
-
-/*** MEDIA QUERIES ***/
-/*
-@media screen and (min-width: 750px) {
-  .page-title {
-    font: 600 1.8rem Arial sans-serif;
-  }
-}*/

@@ -11,18 +11,20 @@
 </head>
 
 <body class="wrapper">
+
   <header>
-<!--     <nav>
-      <h1><a href="/">Restaurant Reviews</a></h1>
-    </nav> -->
     <h1 class="page-title uppercase full-width">Restaurant Reviews</h1>
   </header>
 
   <main>
+
     <div class="container container-map-and-filters full-width">
+      
       <section class="container-map full-width"id="map-container">
+        <h2 class="hide">Map</h2>
         <div id="map"></div>
       </section>
+
       <section class="container container-filters full-width">
         <h2 class="filter-options-title">Filter Results</h2>
         <div class="container container-filter-options full-width">
@@ -34,21 +36,24 @@
           </select>
         </div>
       </section>
+
     </div>
-    <!-- <section class="container container-restaurants"> -->
+    
+    <section>
+      <h2 class="hide">Restaurant List</h2>
       <ul class="container container-restaurants" id="restaurants-list"></ul>
-    <!-- </section> -->
+    </section>
+  
   </main>
+
+  <footer class="uppercase" id="footer">
+    Copyright (c) 2017 <a href="/"><strong>Restaurant Reviews</strong></a> All Rights Reserved.
+  </footer>
 
   <script src="js/dbhelper.js"></script>
   <script src="js/main.js"></script>
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPlZDVHKUdCGvZZRUtvCFO9mRXSUma6Oo
 &libraries=places&callback=initMap"></script>
-
-
-  <footer class="uppercase" id="footer">
-    Copyright (c) 2017 <a href="/"><strong>Restaurant Reviews</strong></a> All Rights Reserved.
-  </footer>
 
 </body>
 
