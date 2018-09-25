@@ -59,6 +59,7 @@ fillRestaurantHTML = (restaurant = self.restaurant) => {
   const image = document.getElementById('restaurant-img');
   image.className = 'full-width';
   image.src = DBHelper.imageUrlForRestaurant(restaurant);
+  image.alt = `Image of restaurant ${restaurant.name}`;
 
   const cuisine = document.getElementById('restaurant-cuisine');
   cuisine.className = "uppercase";
