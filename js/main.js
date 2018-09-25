@@ -10,6 +10,8 @@ var markers = []
 document.addEventListener('DOMContentLoaded', (event) => {
   fetchNeighborhoods();
   fetchCuisines();
+  const neighborhoodsSelect = document.getElementById('neighborhoods-select');
+  neighborhoodsSelect.focus();
 });
 
 /**
