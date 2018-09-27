@@ -9,7 +9,7 @@
 
 #map {
   width: 100%;
-  height: 400px;
+  height: 25rem;
   background-color: var(--gray);
 }
 
@@ -18,13 +18,13 @@
 
 .container-filters {
   margin: 0;
-  padding: 5px 5px 10px 5px;
+  padding: 0.3125rem 0.3125rem 0.625rem 0.3125rem;
   background-color: var(--soft-blue);  
 }
 
 .filter-options-title {
   margin: 0;
-  padding: 5px;
+  padding: 0.3215rem;
   font: 300 1.2rem Arial sans-serif;
   color: var(--white);
 }
@@ -34,11 +34,11 @@
 }
 
 .filter-option {
-  margin: 0 5px 0 5px;
-  padding: 5px;
+  margin: 0 0.3215rem 0 0.3215rem;
+  padding: 0.3215rem;
   background-color: var(--white);
-  border: 1px solid var(--white);
-  font-size: 0.9rem;
+  border: 0.0625rem solid var(--white);
+  font-size: 1rem;
 }
 
 
@@ -54,24 +54,20 @@
 
 .restaurant {
   width: 100%;  
-  /*min-height: 380px;*/
-  margin: 15px;
-  padding: 25px 30px 25px 30px;
+  margin: 0.9375rem;
+  padding: 1.5625rem 1.875rem 1.5625rem 1.875rem;
   background-color: var(--white);
-  border: 2px solid var(--gray);
+  border: 0.125rem solid var(--gray);
   text-align: left;
 }
 
 .restaurant-img {
-  /*max-height: 400px;*/
-  margin: 5px;
-
-  /*width: 90%;*/
+  margin: 0.3125rem;
   background-color: var(--gray);
 }
 
 .restaurant-name {
-  margin: 20px 0 10px;
+  margin: 1.25rem 0 0.625rem 0;
   font: 200 1.2rem Arial sans-serif;
   color: var(--orange);
 }
@@ -83,11 +79,11 @@
 }
 
 .restaurant-details-link {
-  margin: 15px 0 0 0;
-  padding: 8px 30px 10px;
+  margin: 0.9375rem 0 0 0;
+  padding: 0.5rem 1.875rem 0.625rem;
   font: 200 1.4rem Arial sans-serif;
   background-color: var(--orange);
-  border-bottom: 3px solid var(--light-gray);
+  border-bottom: 0.1875rem solid var(--light-gray);
   color: var(--white);
   text-align: center;
   text-decoration: none;
@@ -104,9 +100,9 @@
   }
 
   .restaurant {
-    width: calc(50% - 10px);
-    margin: 5px;
-    padding: 5px;
+    width: calc(50% - 0.625rem);
+    margin: 0.3125rem;
+    padding: 0.3125rem;
   }
 
   .restaurant-img {
@@ -137,7 +133,7 @@
 
   .container-filters {
     width: 30%;
-    padding: 50px 5px 0 5px;
+    padding: 3.125rem 0.3125rem 0 0.3125rem;
     flex-direction: column;
     align-content: flex-start;
   }
@@ -152,7 +148,7 @@
   }
   
   .filter-option {
-    margin: 10px 5px 10px 5px;
+    margin: 0.625rem 0.3125rem 0.625rem 0.3125rem;
   }
 
 }
@@ -165,7 +161,7 @@
   }
 
   .restaurant {
-    width: calc(33.333% - 10px);
+    width: calc(33.333% - 0.625rem);
   }
 
 }

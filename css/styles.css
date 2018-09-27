@@ -50,7 +50,7 @@ video {
   text-transform: uppercase;
 }
 
-.hide {
+.screenreader {
   position: absolute !important;
   top: -9999px !important;
   left: -9999px !important;
@@ -60,7 +60,7 @@ video {
 /*** BODY ***/
 
 .wrapper {
-  max-width: 800px;
+  max-width: 50rem;
   margin: auto;
   font: 400 1rem arial sans serif;
 
@@ -70,21 +70,21 @@ video {
 /*** HEADER ***/
 .page-title {
   margin: 0;
-  padding: 20px 0 20px 0;
+  padding: 1.1rem 0 1.1rem 0;
   background-color: var(--dark-gray);
   font: 400 1.5rem Arial sans-serif;
   color: var(--orange);
   text-align:center;
-  letter-spacing: 2px;
+  letter-spacing: 0.125rem;
 }
 
 /*** FOOTER ***/
 
 #footer {
-  padding: 25px;
+  padding: 1.5625rem;
   background-color: var(--dark-gray);
-  font-size: 8pt;
+  font-size: 0.75rem;
   color: var(--gray);
   text-align: center;
-  letter-spacing: 1px;
+  letter-spacing: 0.0625rem;
 }
