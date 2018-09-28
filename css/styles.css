@@ -8,7 +8,7 @@
   /* for nav link on hover */
   --dark-blue: #01447e;
   /* for filter options background */
-  --soft-blue: #3397db;
+  --high-contrast-blue: #005e8f;
   /*for backgrounds in */
   /* restaurant-list */
   --light-gray: #f3f3f3;
@@ -21,6 +21,7 @@
   /*for page title*/
   /*--orange: #efa02c;*/
   --orange: #f18200;
+  --high-contrast-orange: #b56000;
 }
 
 
