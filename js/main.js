@@ -119,7 +119,8 @@ resetRestaurants = (restaurants) => {
 
   // Remove all map markers
   if (self.markers) {
-    self.markers.forEach(marker => marker.remove());
+    // self.markers.forEach(marker => marker.remove());
+    self.markers.forEach(marker => marker.setMap(null));
   }
   self.markers = [];
   self.restaurants = restaurants;
