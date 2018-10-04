@@ -2,9 +2,7 @@
 
 :root {
   --white: #fff;
-  /*not used yet*/
-  --light-blue: #aadaff;
-  /*for links*/
+/  /*for links*/
   --blue: #0275d8;
   /* for nav link on hover */
   --dark-blue: #01447e;
@@ -20,7 +18,6 @@
   /* for restuarant hours */
   --soft-gray: #666;
   /*for page title*/
-  /*--orange: #efa02c;*/
   --orange: #f18200;
   --high-contrast-orange: #b55999;
 }
