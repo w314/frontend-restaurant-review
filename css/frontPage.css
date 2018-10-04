@@ -1,8 +1,8 @@
-** MAP AND FILTERS CONTAINER ***/
+/** MAP AND FILTERS CONTAINER ***/
 
-  .container-map-and-filters {
-    flex-wrap: wrap;
-  }
+.container-map-and-filters {
+  flex-wrap: wrap;
+}
 
 
 /*** MAP ***/
@@ -25,7 +25,7 @@
 .filter-options-title {
   margin: 0;
   padding: 0.3215rem;
-  font: 300 1.2rem Arial sans-serif;
+  font: 300 1.2rem arial, sans-serif;
   color: var(--white);
 }
 
@@ -68,7 +68,7 @@
 
 .restaurant-name {
   margin: 1.25rem 0 0.625rem 0;
-  font: 200 1.2rem Arial sans-serif;
+  font: 200 1.2rem arial, sans-serif;
   color: var(--high-contrast-orange);
 }
 
@@ -81,7 +81,7 @@
 .restaurant-details-link {
   margin: 0.9375rem 0 0 0;
   padding: 0.5rem 1.875rem 0.625rem;
-  font: 200 1.4rem Arial sans-serif;
+  font: 200 1.4rem arial, sans-serif;
   background-color: var(--high-contrast-orange);
   border-bottom: 0.1875rem solid var(--light-gray);
   color: var(--white);
@@ -96,7 +96,7 @@
 @media screen and (min-width: 420px) {
  
  .page-title {
-    font: 500 1.6rem Arial sans-serif;
+    font: 500 1.6rem arial, sans-serif;
   }
 
   .restaurant {
@@ -111,11 +111,11 @@
   }
 
   .restaurant-name {
-    font: 500 0.8rem Arial sans-serif;
+    font: 500 0.8rem arial, sans-serif;
   }
 
   .restaurant-details-link {
-    font: 0.8rem Arial sans-serif ;
+    font: 0.8rem arial, sans-serif ;
   }
 
 }

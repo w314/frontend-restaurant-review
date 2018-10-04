@@ -1,4 +1,5 @@
 /*** COLORS ***/
+
 :root {
   --white: #fff;
   /*not used yet*/
@@ -21,7 +22,7 @@
   /*for page title*/
   /*--orange: #efa02c;*/
   --orange: #f18200;
-  --high-contrast-orange: #b56000;
+  --high-contrast-orange: #b55999;
 }
 
 
@@ -34,7 +35,9 @@ video {
   max-width: 100%;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
 }
 
@@ -63,21 +66,22 @@ video {
 .wrapper {
   max-width: 50rem;
   margin: auto;
-  font: 400 1rem arial sans serif;
-
+  font: 400 1rem arial, sans-serif;
 }
 
 
 /*** HEADER ***/
+
 .page-title {
   margin: 0;
   padding: 1.1rem 0 1.1rem 0;
   background-color: var(--dark-gray);
-  font: 400 1.5rem Arial sans-serif;
+  font: 400 1.5rem arial, sans-serif;
   color: var(--orange);
   text-align:center;
   letter-spacing: 0.125rem;
 }
+
 
 /*** FOOTER ***/
 

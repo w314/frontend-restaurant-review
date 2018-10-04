@@ -67,7 +67,7 @@ header {
 
 #restaurant-name {
   margin: 0.9375rem 0 1.875rem 0;
-  font: 200 1.6rem Arial sans-serif;
+  font: 200 1.6rem arial, sans-serif;
   color: var(--orange);
   letter-spacing: 0;
   line-height: 1.1rem;
@@ -77,7 +77,7 @@ header {
   margin: 0;
   padding: 0.25rem;
   background-color: var(--dark-gray);
-  font: 400 1rem Arial sans-serif;
+  font: 400 1rem arial, sans-serif;
   color: var(--gray);
   letter-spacing: 0.625rem;
   text-align: center;
@@ -103,7 +103,7 @@ header {
 #reviews-container h2 {
   margin: 0;
   padding: 0.625rem 0 0.625rem 0;
-  font: 300 1.5rem Arial sans-serif;
+  font: 300 1.5rem arial, sans-serif;
   color: var(--orange);
 }
 
@@ -132,7 +132,7 @@ header {
 @media screen and (min-width: 450px) {
  
  .page-title {
-    font: 500 1.6rem Arial sans-serif;
+    font: 500 1.6rem arial, sans-serif;
   }
   
   .container-map-and-restaurant {
@@ -147,4 +147,4 @@ header {
     width: 50%;
   }
 
-} 
+}
