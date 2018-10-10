@@ -1,3 +1,4 @@
+'use strict';
 /**
  * Common database helper functions.
  */
@@ -8,7 +9,7 @@ class DBHelper {
    * Change this to restaurants.json file location on your server.
    */
   static get DATABASE_URL() {
-    const port = 8000 // Change this to your server port
+    const port = 8000; // Change this to your server port
     return `http://localhost:${port}/data/restaurants.json`;
   }
 
@@ -83,9 +84,11 @@ class DBHelper {
   }
 
   /**
-   * Fetch restaurants by a cuisine and a neighborhood with proper error handling.
+   * Fetch restaurants by a cuisine and a neighborhood
+   * with proper error handling.
    */
-  static fetchRestaurantByCuisineAndNeighborhood(cuisine, neighborhood, callback) {
+  static fetchRestaurantByCuisineAndNeighborhood
+    (cuisine, neighborhood, callback) {
     // Fetch all restaurants
     DBHelper.fetchRestaurants((error, restaurants) => {
       if (error) {
