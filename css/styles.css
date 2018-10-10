@@ -18,8 +18,8 @@
   /* for restuarant hours */
   --soft-gray: #666;
   /*for page title*/
-  --orange: #f18200;
-  --high-contrast-orange: #b55999;
+  --orange-on-gray: #f18200;
+  --orange-on-white: #bb5802;
 }
 
 
@@ -74,7 +74,7 @@ video {
   padding: 1.1rem 0 1.1rem 0;
   background-color: var(--dark-gray);
   font: 400 1.5rem arial, sans-serif;
-  color: var(--orange);
+  color: var(--orange-on-gray);
   text-align:center;
   letter-spacing: 0.125rem;
 }
@@ -89,4 +89,8 @@ video {
   color: var(--gray);
   text-align: center;
   letter-spacing: 0.0625rem;
+}
+
+#footer a {
+  color: var(--gray);
 }

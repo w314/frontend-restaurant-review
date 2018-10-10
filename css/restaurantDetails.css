@@ -68,7 +68,7 @@ header {
 #restaurant-name {
   margin: 0.9375rem 0 1.875rem 0;
   font: 200 1.6rem arial, sans-serif;
-  color: var(--orange);
+  color: var(--orange-on-white);
   letter-spacing: 0;
   line-height: 1.1rem;
 }
@@ -104,7 +104,7 @@ header {
   margin: 0;
   padding: 0.625rem 0 0.625rem 0;
   font: 300 1.5rem arial, sans-serif;
-  color: var(--orange);
+  color: var(--orange-on-white);
 }
 
 #reviews-list {
